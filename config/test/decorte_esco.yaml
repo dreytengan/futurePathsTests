@@ -1,0 +1,11 @@
+# Model Decorte Esco
+# Test data Decorte Esco
+model:
+  embedding_model_path: "ElenaSenger/career-path-representation-mpnet-decorte-esco"
+  transformation_model_path: "./output/matrix_T_decorte_esco.npy"
+  transformation_method: "linear" 
+data:
+  data_type: "decorte_esco"
+output:
+  path_scores: "./output/decorte_esco_scores"
+  path_predictions: "./output/decorte_esco_predictions"

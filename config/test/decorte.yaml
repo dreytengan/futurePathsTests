@@ -1,0 +1,11 @@
+# Model Decorte
+# Test data Decorte
+model:
+  embedding_model_path: "ElenaSenger/career-path-representation-mpnet-decorte"
+  transformation_model_path: "./output/matrix_T_decorte.npy"
+  transformation_method: "linear" 
+data:
+  data_type: "decorte"
+output:
+  path_scores: "./output/decorte_scores"
+  path_predictions: "./output/decorte_predictions" 

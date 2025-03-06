@@ -1,0 +1,11 @@
+# Model Karrierewege CP
+# Test Karrierewege CP
+model:
+  embedding_model_path: "ElenaSenger/career-path-representation-mpnet-karrierewege-cp"
+  transformation_model_path: "./output/matrix_T_karrierewege_cp.npy"
+  transformation_method: "linear" 
+data:
+  data_type: "karrierewege_cp"
+output:
+  path_scores: "./output/karrierewege_cp_scores"
+  path_predictions: "./output/karrierewege_cp_predictions"

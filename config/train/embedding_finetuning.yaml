@@ -1,0 +1,5 @@
+finetuning:
+  batch_size: 16  # Batch size for fine-tuning
+  learning_rate: 2.0e-5  # Learning rate for fine-tuning
+  epochs: 1  # Number of epochs for fine-tuning
+  epoch_eval_frac: 0.01  # Fraction of data to evaluate on

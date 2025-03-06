@@ -1,0 +1,11 @@
+# Model Karrierewege
+# Data Karrierewege
+model:
+  embedding_model_finetuning: "all-mpnet-base-v2"
+  embedding_model_transformation: "ElenaSenger/career-path-representation-mpnet-karrierewege"
+data:
+  data_type: "karrierewege"
+output:
+  path_embedding_model: "./output/all-mpnet-base-v2_finetuned_karrierewege" #adjust if needed
+  path_transformation_matrix: "./output/matrix_T_karrierewege.npy"
+  path_linear_transformation_errors: "./output/matrix_T_errors_karrierewege.json"
