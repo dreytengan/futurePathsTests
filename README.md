@@ -31,4 +31,3 @@ Replace `test_config_of_choice.json` with the appropriate configuration file for
 ## 📬 Contact
 For questions or collaborations, feel free to reach out or open an issue in this repository.
 
-Happy researching! 🚀
