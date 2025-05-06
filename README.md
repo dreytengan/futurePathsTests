@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # KARRIEREWEGE: A Large-Scale Career Path Prediction Dataset
 
 Welcome to the official repository for the paper [KARRIEREWEGE: A Large-Scale Career Path Prediction Dataset](https://arxiv.org/abs/2412.14612). This repository contains datasets, models, and code for career path prediction research.
@@ -31,3 +32,7 @@ Replace `test_config_of_choice.json` with the appropriate configuration file for
 ## 📬 Contact
 For questions or collaborations, feel free to reach out or open an issue in this repository.
 
+=======
+# futurePaths
+Advanced Topics in Machine Learning
+>>>>>>> 9c73aa152ea48300778a7ef64265ecedd51379e9
