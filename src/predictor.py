@@ -94,6 +94,6 @@ class Predictor:
         )
         self.transformation_method = transformation_method
 
-    def predict(self, data):
-        return self.label_predictor.predict(data)
+    def predict(self, data, top_k=10):
+        return self.label_predictor.predict(data, top_k=top_k)
 
