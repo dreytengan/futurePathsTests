@@ -13,7 +13,6 @@ cycler==0.12.1
 datasets==3.2.0
 dill==0.3.8
 docker-pycreds==0.4.0
-faiss-cpu==1.11.1
 filelock==3.14.0
 fonttools==4.55.3
 frozenlist==1.4.1
