@@ -6,7 +6,7 @@ from sentence_transformers import SentenceTransformer
 @st.cache_resource
 def load_predictor():
     # Load precomputed job labels + FAISS index
-    next_jobs = np.load('next_jobs.npy', allow_pickle=True)
+    next_jobs = np.load('src/next_jobs.npy', allow_pickle=True)
     index = faiss.read_index('faiss_index.index')
 
     # Load SentenceTransformer model
