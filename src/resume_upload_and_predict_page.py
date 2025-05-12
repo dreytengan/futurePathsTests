@@ -6,8 +6,8 @@ import numpy as np
 # import faiss
 
 # Import functions from other files in the src directory
-from src.resume_parser import parse_resume_data
-from src.career_pivot_page import load_predictor, extract_job_title_and_description
+from .utils.resume_parser import parse_resume_data
+from career_pivot_page import load_predictor, extract_job_title_and_description
 
 def generate_suggestions_from_text(model, index, next_jobs_data, query_text, top_n=5):
     """

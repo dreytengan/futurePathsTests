@@ -1,8 +1,8 @@
 # streamlit_app.py
 import streamlit as st
-import src.career_pivot_page as career_pivot_page  # Explicit src import
-import src.internships_salary_page as internships_salary_page # Explicit src import
-import src.resume_upload_and_predict_page as resume_upload_and_predict_page # <-- NEW: Explicit src import
+import career_pivot_page 
+import internships_salary_page 
+import resume_upload_and_predict_page # <-- NEW PAGE
 
 # Configure page title and icon
 st.set_page_config(page_title="futurePaths", page_icon="🚀", layout="wide")
